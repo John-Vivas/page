@@ -238,7 +238,7 @@ th {
     margin-bottom: 20px;
 }
 .agotado{
-    margin-top: -380px;
+    margin-top: -370px;
 }
 
 .product h3 {
@@ -429,6 +429,11 @@ th {
     .product img {
         width: 280px;
         height: 350px;
+    }
+    .agotado {
+        width: 280px;
+        height: 350px;
+        margin-top: -350px;
     }
     
     .icons {
