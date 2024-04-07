@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">buy it</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">inicio</a></li>
+                    <li><a href="#">productos</a></li>
+                    <li><a href="#">contactanos</a></li>
+                </ul>
+
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car.svg"  id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                
+                                <tbody>
+                                    
+                                    <tr>
+                                        <td>imagen
+                                        </td>
+                                        <td>nombre</td>
+                                        <td>precio</td>
+                                        <td></td>
+                                    </tr>
+                               
+                                </tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="img/0433667a8ae59ada74b530dcd94a8240.jpg" alt="">
+            </div>
+            <div class="header-txt">
+                <h1>viste a la moda</h1>
+                <p>estrena las mejores prendas</p>
+                <a href="#" class="btn-1">infromacion</a>
+
+            </div>
+        </div>
+    </header>
+    
+    <section class="ofert container">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="img/81a1b9780522fda3124681faca655cee.jpg" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>tres piezas</h3>
+                <a href="#" class="btn-2" >$75.000</a>
+            </div>
+
+        </div>
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="img/6960c7b9e19c22466401beb7035aa73e.jpeg" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>dos piezas</h3>
+                <a href="#" class="btn-2" >$65.000</a>
+            </div>
+
+        </div>
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="img/f30abe5062ad1017d2bb1e01b44477e3.jpg" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>enterizo</h3>
+                <a href="#" class="btn-2" >$60.000
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+    <main class="products container" id="lista-1">
+        <h2>productos</h2>
+        <div class="product-content">
+            <div class="product">
+                <img src="img/86df351b12bbd25f3fa2d19fb89d3f1b.jpg" alt="">
+                <div class="product-txt">
+                    <h3>lycra corta</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$22.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/756002de2c125896745feeb9973e04b2.jpg" alt="">
+                <div class="product-txt">
+                    <h3>lycra corta</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$35.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/500a9db57bb360bbcae2dd75461e14c1.jpg" alt="">
+                <div class="product-txt">
+                    <h3>bluza</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$20.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/fe11dbf3819d4073512b9ddf17f96da1.jpg" alt="">
+                <div class="product-txt">
+                    <h3>bluza</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$20.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/496c80e451a584342cb5bb43e362fbe2.jpg" alt="">
+                <div class="product-txt">
+                    <h3>bluza</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$20.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/7234fd2c0905d5c2c6c1179ea2af6cc7.jpg" alt="">
+                <div class="product-txt">
+                    <h3>bluza</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$20.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/90dd30f117637866de92d9d0a900167d.jpg" alt="">
+                <div class="product-txt">
+                    <h3>tres piezas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$55.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/1b130b74478b3a11516e0cdfe08c3ebd.jpg" alt="">
+                <div class="product-txt">
+                    <h3>tres piezas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$55.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/ee47c59c1ebbedf9351827e62e462848.jpg" alt="">
+                <div class="product-txt">
+                    <h3>tres piezas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$55.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/0d802fc0dc65fa2d07c8e9e66436cee4.jpeg" alt="">
+                <div class="product-txt">
+                    <h3>tres piezas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$75.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/6aa2802fade64538e93367ac4490aba6.jpeg" alt="">
+                <div class="product-txt">
+                    <h3>multiusos dos piesas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$60.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/d49fca076a8b1230c0574330262fc4af.jpeg" alt="">
+                <div class="product-txt">
+                    <h3>multiusos dos piesas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$60.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/22c3d31276ed5f2382e2799ea5da7381.jpeg" alt="">
+                <div class="product-txt">
+                    <h3>multiusos dos piesas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$60.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/60c0b6bdcce68e33ef96e50aa20dc9db.jpeg" alt="">
+                <div class="product-txt">
+                    <h3>multiusos dos piesas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$60.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/6bcaac5e4dbc039b39b113f9bd6f0858.jpeg" alt="">
+                <div class="product-txt">
+                    <h3>multiusos dos piesas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$60.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/ec17a99680f28de55e8ba0c4d182f36f.jpeg" alt="">
+                <div class="product-txt">
+                    <h3>multiusos dos piesas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$65.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/6960c7b9e19c22466401beb7035aa73e.jpeg" alt="">
+                <div class="product-txt">
+                    <h3>multiusos dos piesas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$65.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/4855de63973b7508c2eebea024118edd.jpeg" alt="">
+                <div class="product-txt">
+                    <h3>multiusos dos piesas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$65.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/8fc8eec5dc58a7edf7b24950d2b335a6.jpg" alt="">
+                <div class="product-txt">
+                    <h3>enterizo</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$65.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/f30abe5062ad1017d2bb1e01b44477e3.jpg" alt="">
+                <div class="product-txt">
+                    <h3>enterizo</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$65.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/e3dec7649b7808d473126e2fbdf64c1f.jpg" alt="">
+                <div class="product-txt">
+                    <h3>dos piezas sudadera</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$65.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/33674628eac1c0ab052db85b7bec5c03.jpg" alt="">
+                <div class="product-txt">
+                    <h3>dos piezas sudadera</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$65.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/70a7e6cc59612257f5aa2d180f62fad9.jpg" alt="">
+                <div class="product-txt">
+                    <h3>dos piezas sudadera</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$65.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+            
+            <div class="product">
+                <img src="img/605aa1c5ce11330f1dc50b784f1aae7e.jpg" alt="">
+                <div class="product-txt">
+                    <h3>dos piezas pantaloneta</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$46.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/c6bb94d49ad8ac8cb6d70fa4177823b7.jpg" alt="">
+                <div class="product-txt">
+                    <h3>dos piezas pantaloneta</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$46.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/806c32e0b1fc6f6320e5c754764983fc.jpg" alt="">
+                <div class="product-txt">
+                    <h3>dos piezas pantaloneta</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$46.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/8485244220b2f95aa470ac9d4d325d7c.jpg" alt="">
+                <div class="product-txt">
+                    <h3>dos piezas pantaloneta</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$46.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/a710897b9dde249c9cd8deb2cdba820f.jpg" alt="">
+                <div class="product-txt">
+                    <h3>dos piezas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$46.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/d4c22102d78ee8f8986d8d845d2affa1.jpg" alt="">
+                <div class="product-txt">
+                    <h3>dos piezas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$46.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/0905810899426d6495da531f048d6753.jpg" alt="">
+                <div class="product-txt">
+                    <h3>dos piezas short</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$46.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/2fc88b46ff31f90aeae1ab9cda76a704.jpg" alt="">
+                <div class="product-txt">
+                    <h3>dos piezas short</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$46.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/b7246a462f4963d909e0a9e3a4832cca.jpg" alt="">
+                <div class="product-txt">
+                    <h3>dos piezas short</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$46.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/479a6f636874ab60e8406d6647a80a93.jpg" alt="">
+                <div class="product-txt">
+                    <h3>dos piezas short</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$46.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <img src="img/fdb4a2fa27d7c288827357f8aad83d74.jpg" alt="">
+                <div class="product-txt">
+                    <h3>dos piezas lycra</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$55.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/0fb4728ac8d290411d841792dc99cfac.jpg" alt="">
+                <div class="product-txt">
+                    <h3>dos piezas lycra</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$55.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/408c5c145c50f67653b4e46f545c5491.jpg" alt="">
+                <div class="product-txt">
+                    <h3>dos piezas lycra</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$55.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/f415fd50fc316f39b0d837cc7054334a.jpg" alt="">
+                <div class="product-txt">
+                    <h3>tres piezas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$68.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/710ec654b53b0ddc41173b0c4d2f3776.jpg" alt="">
+                <div class="product-txt">
+                    <h3>tres piezas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$75.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/d15d6c807760cb7a44c829d37c1c84f5.jpg" alt="">
+                <div class="product-txt">
+                    <h3>tres piezas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$75.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/f415fd50fc316f39b0d837cc7054334a.jpg" alt="">
+                <div class="product-txt">
+                    <h3>tres piezas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$75.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/81a1b9780522fda3124681faca655cee.jpg" alt="">
+                <div class="product-txt">
+                    <h3>tres piezas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$75.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/c1d5adc6156b547b7c6d0a2272bbc1a1.jpg" alt="">
+                <div class="product-txt">
+                    <h3>tres piezas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$75.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/9eebee7dc5d37b74aea785fefe18b958.jpg" alt="">
+                <div class="product-txt">
+                    <h3>tres piezas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$75.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/0433667a8ae59ada74b530dcd94a8240.jpg" alt="">
+                <div class="product-txt">
+                    <h3>tres piezas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$75.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="icons container">
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/i1.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Lorem ipsum dolor sit</h3>
+                <p>
+                    amet consectetur adipisicing elit.
+                </p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/i2.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Lorem ipsum dolor sit</h3>
+                <p>
+                    amet consectetur adipisicing elit.
+                </p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/i3.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Lorem ipsum dolor sit</h3>
+                <p>
+                    amet consectetur adipisicing elit.
+                </p>
+            </div>
+        </div>
+
+
+    </section>
+
+   <!-- <section class="blog container">
+        <div class="blog-1">
+            <img src="images/b1.jpg" alt="">
+            <h3>Blog 1</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Aliquam numquam quaerat, magnam explicabo error quibusdam reprehenderit
+                 modi quisquam doloribus pariatur, officiis obcaecati vel possimus 
+                 aut distinctio odit in minima non!
+            </p>
+
+        </div>
+
+        <div class="blog-1">
+            <img src="images/b2.jpg" alt="">
+            <h3>Blog 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Aliquam numquam quaerat, magnam explicabo error quibusdam reprehenderit
+                 modi quisquam doloribus pariatur, officiis obcaecati vel possimus 
+                 aut distinctio odit in minima non!
+            </p>
+
+        </div>
+
+        <div class="blog-1">
+            <img src="images/b3.jpg" alt="">
+            <h3>Blog 3</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Aliquam numquam quaerat, magnam explicabo error quibusdam reprehenderit
+                 modi quisquam doloribus pariatur, officiis obcaecati vel possimus 
+                 aut distinctio odit in minima non!
+            </p>
+
+        </div>
+
+
+    </section>
+-->
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li>
+                        <a href="#"> lorem</a>
+                    </li>
+                    <li>
+                        <a href="#"> lorem</a>
+                    </li>
+                    <li>
+                        <a href="#"> lorem</a>
+                    </li>
+                    <li>
+                        <a href="#"> lorem</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li>
+                        <a href="#"> lorem</a>
+                    </li>
+                    <li>
+                        <a href="#"> lorem</a>
+                    </li>
+                    <li>
+                        <a href="#"> lorem</a>
+                    </li>
+                    <li>
+                        <a href="#"> lorem</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li>
+                        <a href="#"> lorem</a>
+                    </li>
+                    <li>
+                        <a href="#"> lorem</a>
+                    </li>
+                    <li>
+                        <a href="#"> lorem</a>
+                    </li>
+                    <li>
+                        <a href="#"> lorem</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li>
+                        <a href="#"> lorem</a>
+                    </li>
+                    <li><a href="#"> lorem</a></li>
+                    <li>
+                        <a href="#"> lorem</a>
+                    </li>
+                    <li>
+                        <a href="#"> lorem</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="scrip.js"></script>
+</body>
+</html>
