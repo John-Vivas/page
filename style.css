@@ -342,6 +342,7 @@ th {
         padding: 20px;
 
     }
+    
 
     .menu label {
         display: initial;
@@ -382,7 +383,14 @@ th {
     }
 
     .header-img {
-        display: flex;
+        width: 75vw;
+        max-width: 1000px;
+        min-width: 320px;
+        margin: auto;
+
+    }
+    img{
+        width: 100%;
     }
 
     .header-txt {
@@ -394,6 +402,7 @@ th {
     }
 
     .ofert{
+        display: inline;
         padding: 30px 30px 0 30px;
     }
     .ofert-1 {
@@ -415,8 +424,8 @@ th {
     }
 
     .product img {
-        width: 200px;
-        height: 280px;
+        width: 280px;
+        height: 350px;
     }
     .icons {
         padding: 30px;
